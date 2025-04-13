@@ -8,15 +8,8 @@ import {
   SiReact,
   SiGit,
   SiMysql,
-  SiPostgresql,
   SiPython,
   SiExpress,
-  SiDocker,
-  SiMongodb,
-  SiHeroku,
-  SiAmazonaws,
-  SiDjango,
-  SiGraphql,
 } from "react-icons/si";
 import { FaCode } from "react-icons/fa";
 import GridBackground from "../components/GridBackground";
