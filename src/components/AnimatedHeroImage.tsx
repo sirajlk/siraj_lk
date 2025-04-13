@@ -14,7 +14,7 @@ export default function AnimatedHeroImage() {
             cy="100"
             r="100"
             fill="none"
-            stroke="#00FFCC"
+            stroke="#00ff91"
             strokeWidth="4"
             strokeLinecap="round"
             className="animate-dash-morph"

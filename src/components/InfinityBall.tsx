@@ -2,7 +2,7 @@ import { motion, useMotionValue, useTransform, useAnimationFrame } from "framer-
 
 const InfinityBall = ({
   size = 10,
-  color = "#00FFFF",
+  color = "#00ff91",
   duration = 6,
 }: {
   size?: number;

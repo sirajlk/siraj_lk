@@ -74,8 +74,8 @@ export default function AllProjects() {
                 <p className="text-[#aaaaaa] text-sm">{t.title}</p>
               
               </div>
-              <button className=" relative  rounded-full font-medium hover:bg-[#202020] transition flex items-center gap-1 mx-auto">
-                <span className="bg-[#202020] -inset-x-3 z-10 absolute w-9 h-9 rounded-full"></span>
+              <button className=" relative  rounded-full font-medium hover:bg-[#202020] transition flex items-center gap-1 px-5 mx-auto">
+                <span className="bg-[#202020] inset-x-2 z-10 absolute w-9 h-9 rounded-full"></span>
                 <h1 className="z-20">View Project<span className="text-primary">→</span></h1>
               </button>
              </div>
