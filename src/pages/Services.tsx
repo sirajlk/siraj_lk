@@ -1,13 +1,10 @@
-import React from "react";
 import { motion } from "framer-motion";
 import {
   LucideLayoutPanelLeft,
   LucidePenTool,
-  LucideSword,
 } from "lucide-react";
 import BackgroundCircle from "../components/BackgroundCircle";
-import { BiMobile, BiMobileVibration } from "react-icons/bi";
-import { BsWordpress } from "react-icons/bs";
+import { BiMobileVibration } from "react-icons/bi";
 import { FaWordpressSimple } from "react-icons/fa";
 
 export default function ServicesWithLines() {

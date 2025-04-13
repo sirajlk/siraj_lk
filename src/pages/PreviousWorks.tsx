@@ -1,10 +1,7 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { projects, textVariants } from "../lib/Constants";
-import { useNavigate } from "react-router-dom"; // Make sure it's react-router-dom
 
 export default function ProjectShowcase() {
-  const navigate = useNavigate();
 
   return (
     <div id="work" className="flex flex-col justify-center items-center px-4 py-12">

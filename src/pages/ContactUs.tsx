@@ -1,5 +1,3 @@
-import React from "react";
-import BackgroundCircle from "../components/BackgroundCircle";
 
 export default function ContactUs() {
   return (

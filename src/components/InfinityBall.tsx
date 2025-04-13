@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, useMotionValue, useTransform, useAnimationFrame } from "framer-motion";
 
 const InfinityBall = ({
