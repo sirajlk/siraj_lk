@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes dash-morph {
+    0% {
+      stroke-dasharray: 20 10 5 10;
+    }
+    25% {
+      stroke-dasharray: 10 15 15 5;
+    }
+    50% {
+      stroke-dasharray: 25 5 10 10;
+    }
+    75% {
+      stroke-dasharray: 15 10 20 5;
+    }
+    100% {
+      stroke-dasharray: 20 10 5 10;
+    }
+  }
+  
+  .animate-dash-morph {
+    animation: dash-morph 10s ease infinite;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
