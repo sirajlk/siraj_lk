@@ -4,7 +4,7 @@ import { projects, textVariants } from "../lib/Constants";
 export default function ProjectShowcase() {
 
   return (
-    <div id="work" className="flex flex-col justify-center items-center px-4 py-12">
+    <div id="work" className="flex flex-col justify-center items-center px-4 ">
       <div className="w-full max-w-6xl">
         {projects.map((project) => (
           <motion.div

@@ -1,7 +1,7 @@
 
 export default function ContactUs() {
   return (
-    <section id="contact" className="relative md:py-20">
+    <section id="contact" className="relative ">
       <div className="absolute inset-0 z-0">
         <div
           className="absolute w-[500px] h-[500px] bg-primary opacity-20 rounded-full blur-3xl"
@@ -9,7 +9,7 @@ export default function ContactUs() {
         />
       </div>
       <div className="w-full flex items-center justify-center">
-        <h1 className="text-4xl md:text-6xl w-2/3 text-center font-bold mb-6 border-b-4 border-dashed border-primary inline-block pb-4">
+        <h1 className="text-4xl md:text-5xl w-2/3 text-center font-bold mb-6 border-b-4 border-dashed border-primary inline-block pb-4">
           Let's Connect!
         </h1>
       </div>
