@@ -7,6 +7,7 @@ const testimonials = [
     name: "Larry Diamond",
     title: "Chief Executive Officer, Bertil",
     image: "/project4.png",
+    link: "https://home-services-lovat.vercel.app/",
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
@@ -15,6 +16,7 @@ const testimonials = [
     name: "Jane Doe",
     title: "Product Manager, Acme Inc.",
     image: "/project7.png",
+    link: "https://www.figma.com/design/I65SrSAuOTtdAksGY7Kpl2/home-remodeling?m=auto&t=YfmgzUzK6bvYh0XW-1",
     quote:
       "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
@@ -23,6 +25,7 @@ const testimonials = [
     name: "John Smith",
     title: "CTO, InnovateX",
     image: "/project5.png",
+    link: "https://hospitly-seven.vercel.app/",
     quote:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
@@ -68,17 +71,21 @@ export default function AllProjects() {
                 My Satisfied Client
               </h2>
               <p className="text-[#aaaaaa] mb-6 max-w-md">{t.quote}</p>
-             <div className="flex">
-             <div >
-                <p className="font-semibold text-white text-lg">{t.name}</p>
-                <p className="text-[#aaaaaa] text-sm">{t.title}</p>
-              
+              <div className="flex">
+                <div>
+                  <p className="font-semibold text-white text-lg">{t.name}</p>
+                  <p className="text-[#aaaaaa] text-sm">{t.title}</p>
+                </div>
+                <button
+                  onClick={() => window.open(t.link, "_blank")}
+                  className=" relative  rounded-full font-medium hover:bg-[#202020] transition flex items-center gap-1 px-5 mx-auto"
+                >
+                  <span className="bg-[#202020] inset-x-2 z-10 absolute w-9 h-9 rounded-full"></span>
+                  <h1 className="z-20">
+                    View Project<span className="text-primary">→</span>
+                  </h1>
+                </button>
               </div>
-              <button className=" relative  rounded-full font-medium hover:bg-[#202020] transition flex items-center gap-1 px-5 mx-auto">
-                <span className="bg-[#202020] inset-x-2 z-10 absolute w-9 h-9 rounded-full"></span>
-                <h1 className="z-20">View Project<span className="text-primary">→</span></h1>
-              </button>
-             </div>
             </motion.div>
           </div>
         );
