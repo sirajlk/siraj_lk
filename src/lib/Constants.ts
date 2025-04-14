@@ -46,4 +46,11 @@ export const projects = [
     image: "/project5.png",
     link: 'https://hospitly-seven.vercel.app/'
   },
+  {
+    number: "04",
+    title: "R-Rentals",
+    subtitle: "FIGMA / UI / UX",
+    image: "/project8.png",
+    link: 'https://www.figma.com/design/JXhSUlcoQmaaSibqDi85gg/Real-State?node-id=0-1&p=f&t=6uqqO8wnRtV37pvD-0'
+  },
 ];

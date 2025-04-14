@@ -29,6 +29,15 @@ const testimonials = [
     quote:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
+  {
+    id: 4,
+    name: "cate Smith",
+    title: "CTO, InnovateX",
+    image: "/project8.png",
+    link: "https://www.figma.com/design/JXhSUlcoQmaaSibqDi85gg/Real-State?node-id=0-1&p=f&t=6uqqO8wnRtV37pvD-0",
+    quote:
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  },
 ];
 
 export default function AllProjects() {
